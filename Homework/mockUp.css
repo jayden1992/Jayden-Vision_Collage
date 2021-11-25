@@ -1,0 +1,206 @@
+/* Global */
+:root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-blue: #0fc0de;
+  --color-black: #050400;
+  --color-lightblack: #45484d;
+  --color-lightgray: #858380;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+}
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  margin: 0;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+/* Section common */
+
+.section {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  /* 한쪽에만 마진이 들어가서 가운데 정렬이 안되면 */
+}
+.section__container {
+  max-width: 100%;
+  margin: auto;
+}
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  margin: 32px 0px;
+}
+
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-backblack);
+  align-items: center;
+  color: var(--color-light-white);
+  padding: 12px;
+  margin: 0px 180px;
+}
+.navbar__menu {
+  display: flex;
+}
+.navbar__menu__item {
+  padding: 8px 12px;
+  margin: 0 14px;
+  cursor: pointer;
+}
+.navbar__menu__item.active {
+  border: 1px solid var(--color-blue);
+  border-radius: 20px;
+  width: 120px;
+  text-align: center;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+/* Home */
+#home {
+  background: url(image/mountain.png) center/cover no-repeat;
+}
+
+#home h1,
+h2,
+#team h1,
+h3,
+p {
+  color: var(--color-white);
+}
+.empty {
+  height: 200px;
+}
+.home__title img {
+  position: relative;
+  top: 10px;
+}
+/* About */
+
+#about h1 {
+  color: var(--color-blue);
+}
+#about h2 {
+  color: black;
+}
+/* Team */
+#team {
+  background-color: var(--color-blue);
+}
+.team__member {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 80px;
+}
+
+#team h3 {
+  font-weight: var(--weight-bold);
+}
+#team p {
+  font-weight: 300;
+}
+
+.team__btn {
+  font-weight: var(--weight-semi-bold);
+  border: 1px solid var(--color-white);
+  border-radius: 20px;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+.map {
+  overflow: ;
+}
+#contact {
+  background-color: var(--color-lightblack);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact__menu {
+  color: var(--color-white);
+  display: flex;
+  gap: 30px;
+  margin-left: 120px;
+}
+.contact__icon {
+  display: flex;
+  gap: 12px;
+  padding: 15px;
+  margin-right: 120px;
+}
+.contact__information {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 120px;
+  background-color: var(--color-lightblack);
+  color: var(--color-white);
+}
+.contact__whiteLine {
+  width: 100%;
+  height: 1px;
+
+  background-color: var(--color-lightgray);
+}
