@@ -1,0 +1,14 @@
+/* navbar */
+#navbar {
+  height: 120px;
+  z-index: 9999;
+  font-weight: 600;
+}
+
+.navbarbg {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav_items:hover {
+  border-bottom: 1px solid #fff;
+}

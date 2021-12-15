@@ -1,0 +1,23 @@
+/* Universal tags */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+  font-size: calc(0.35vw + 8.74px);
+}
+body {
+  font-size: 1.5rem;
+  font-family: 'NEXONLv1Gothic';
+  font-weight: 700;
+}
