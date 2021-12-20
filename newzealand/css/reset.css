@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'NEXONLv1Gothic';
 }
 a {
   color: inherit;
@@ -18,6 +18,5 @@ html {
 }
 body {
   font-size: 1.5rem;
-  font-family: 'NEXONLv1Gothic';
   font-weight: 700;
 }

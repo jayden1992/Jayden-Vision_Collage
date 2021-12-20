@@ -8,7 +8,7 @@
 .landmark_content {
   width: 1000px;
   max-width: 70vw;
-  margin: 10vw 0;
+  margin: 12vw 0;
   text-align: right;
   position: relative;
   padding-top: 10vw;
@@ -55,7 +55,6 @@
 }
 .landmark_map {
   position: absolute;
-  z-index: 9999;
   width: 100%;
   height: 100%;
   display: none;
@@ -103,26 +102,8 @@
 .landmark_content:nth-child(6) .landmark_image {
   background: url(/image/landmark_sec6\ cathedral.jpeg) center/cover;
 }
-
-.scrollTop {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-  display: none;
-}
-
-.scrollTop i {
-  border-radius: 5px;
-  text-align: center;
-  line-height: 50px;
-  width: 50px;
-  height: 50px;
-  background-color: #333;
-  color: #fff;
-  font-size: 40px;
-}
-.scrollTop i:hover {
-  background-color: tomato;
+.landmark_content:nth-child(7) .landmark_image {
+  background: url(/image/landmark_sec6\ cathedral.jpeg) center/cover;
 }
 
 @media screen and (max-width: 768px) {

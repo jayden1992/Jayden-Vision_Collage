@@ -1,0 +1,20 @@
+.history_title_img {
+  background: url(/image/auckland.jpg) center/cover no-repeat;
+  width: 100%;
+  height: 65vh;
+}
+.content_title {
+  font-size: 5rem;
+  font-weight: 800;
+  border-bottom: 5px solid white;
+}
+.section_content {
+  max-width: 80vw;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+.quote {
+  font-size: 1rem;
+  color: white;
+}

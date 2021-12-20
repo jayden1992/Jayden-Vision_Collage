@@ -3,9 +3,11 @@
 @import url(variables.css);
 /* Components */
 @import url(components/nav-bar.css);
+@import url(components/scrollTop.css);
 /* Screens */
 @import url(screens/home.css);
 @import url(screens/landmark.css);
+@import url(screens/history.css);
 @font-face {
   font-family: 'NEXONLv1Gothic';
   font-weight: 300;

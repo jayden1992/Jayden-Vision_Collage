@@ -69,3 +69,9 @@
     font-weight: 900;
   }
 }
+@media screen and (max-width: 576px) {
+  .carousel-item:nth-child(2) h1,
+  .carousel-item:first-child h1 {
+    font-size: 6rem;
+  }
+}

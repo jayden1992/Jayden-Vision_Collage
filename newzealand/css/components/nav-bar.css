@@ -1,14 +1,25 @@
 /* navbar */
 #navbar {
-  height: 120px;
+  height: 10rem;
   z-index: 9999;
-  font-weight: 600;
+  font-weight: 900;
+  font-size: 3vw;
 }
-
-.navbarbg {
-  background-color: rgba(0, 0, 0, 0.7);
+.nav_menu{
+  font-size: 2rem;
 }
-
+.navbarbw {
+  background-color: rgba(0, 0, 0, 0.4);
+}
 .nav_items:hover {
   border-bottom: 1px solid #fff;
 }
+
+.nav_items_bw:hover {
+  border-bottom: 1px solid #333;
+}
+
+@media screen and (max-width: 576px) {
+  .nav_menu {
+    font-size: 1.3rem;
+  }
