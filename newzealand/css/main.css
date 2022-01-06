@@ -11,6 +11,8 @@
 @import url(screens/landmark.css);
 @import url(screens/history.css);
 @import url(screens/event.css);
+@import url(screens/contact.css);
+
 @font-face {
   font-family: 'NEXONLv1Gothic';
   font-weight: 300;

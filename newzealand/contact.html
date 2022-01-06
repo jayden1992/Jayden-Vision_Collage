@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -11,13 +11,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <!-- Google font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
-      rel="stylesheet"
-    />
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Font awesome -->
@@ -25,10 +18,18 @@
       src="https://kit.fontawesome.com/2305a533a9.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/contact.js"></script>
     <title>New Zealand</title>
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
+  <body class="bg-black">
     <!-- NAVBAR -->
     <div
       id="navbar"
@@ -38,24 +39,48 @@
         align-items-center
         flex-lg-row
         justify-content-lg-around
-        my-4 my-lg-0
-        navbarbw
+        my-5 my-lg-0
       "
     >
-      <a href="index.html" class="nav_logo display-5 text-black fw-bold"
+      <a href="index.html" class="nav_logo display-5 text-white fw-bold"
         >NEW ZEALAND</a
       >
       <div class="nav_menu my-5 my-lg-0">
-        <a href="index.html" class="nav_items_bw text-black mx-2">HOME</a>
-        <a href="history.html" class="nav_items_bw text-black mx-2">HISTORY</a>
-        <a href="landmark.html" class="nav_items_bw text-black mx-2"
-          >LANDMARK</a
-        >
-        <a href="event.html" class="nav_items_bw text-black mx-2">EVENT</a>
-        <a href="contact.html" class="nav_items_bw text-black mx-2">CONTACT</a>
+        <a href="index.html" class="nav_items text-white mx-2">HOME</a>
+        <a href="history.html" class="nav_items text-white mx-2">HISTORY</a>
+        <a href="landmark.html" class="nav_items text-white mx-2">LANDMARK</a>
+        <a href="event.html" class="nav_items text-white mx-2">EVENT</a>
+        <a href="contact.html" class="nav_items text-white mx-2">CONTACT</a>
       </div>
     </div>
-    <!-- scrolltop -->
+    <!-- contact form -->
+
+    <div class="wrapper mt-5">
+      <h2 class="text-warning text-center mb-4">Contact Us</h2>
+      <div id="error_message"></div>
+
+      <form id="myform" onsubmit="return validation()" action="">
+        <div class="input_field">
+          <input type="text" placeholder="Name" id="name" />
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Phone" id="phone" />
+        </div>
+        <div class="input_field">
+          <input type="text" placeholder="Email" id="email" />
+        </div>
+        <div class="input_field">
+          <textarea
+            placeholder="Message"
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <div class="input_btn"><input type="submit" /></div>
+      </form>
+    </div>
+
     <a href="" class="scrollTop">
       <i class="fas fa-arrow-up"></i>
     </a>
