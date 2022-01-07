@@ -1,20 +1,26 @@
 .wrapper {
+  width: 60vw;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff;
+  background-color: var(--color-white);
   padding: 25px;
   border-radius: 5px;
 }
-
+.wrapper h2 {
+  color: var(--color-orange);
+  text-transform: uppercase;
+  font-weight: var(--weight-bold);
+  letter-spacing: 5px;
+}
 .input_field {
   margin-bottom: 10px;
 }
 .input_field input[type='text'],
 .wrapper textarea {
   width: 100%;
-  border: 1px solid #e0e0e0;
+  border: 1px solid var(--color-light-white);
   padding: 10px;
 }
 
@@ -27,16 +33,20 @@
   margin-top: 15px;
   padding: 10px;
   width: 100%;
-  background-color: black;
-  color: #fff;
+  background-color: var(--color-orange);
+  color: var(--color-white);
   border-radius: 10px;
   cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .wrapper #error_message {
+  border-radius: 5px;
+  color: var(--color-white);
   margin-bottom: 20px;
   padding: 0px;
-  background-color: #fe8bef;
+  background-color: var(--color-light-red);
   text-align: center;
   font-size: 14px;
   transition: all 0.5s ease;

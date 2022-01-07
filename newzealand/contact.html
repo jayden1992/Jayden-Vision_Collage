@@ -11,6 +11,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- Google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,500;1,800&family=Open+Sans:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- Font awesome -->
@@ -18,13 +25,6 @@
       src="https://kit.fontawesome.com/2305a533a9.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Google font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap"
-      rel="stylesheet"
-    />
     <script src="js/contact.js"></script>
     <title>New Zealand</title>
     <link rel="stylesheet" href="css/main.css" />
@@ -56,7 +56,7 @@
     <!-- contact form -->
 
     <div class="wrapper mt-5">
-      <h2 class="text-warning text-center mb-4">Contact Us</h2>
+      <h2 class="text-center mb-4">Contact Us</h2>
       <div id="error_message"></div>
 
       <form id="myform" onsubmit="return validation()" action="">
@@ -77,10 +77,9 @@
             rows="10"
           ></textarea>
         </div>
-        <div class="input_btn"><input type="submit" /></div>
+        <div class="input_btn"><input type="submit" value="submit" /></div>
       </form>
     </div>
-
     <a href="" class="scrollTop">
       <i class="fas fa-arrow-up"></i>
     </a>

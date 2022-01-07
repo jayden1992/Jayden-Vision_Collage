@@ -22,7 +22,7 @@
   font-size: 25vw;
   font-weight: 800;
   opacity: 0.8;
-  color: #333;
+  color: var(--color-dark-grey);
   position: absolute;
   right: -23vw;
   top: -5vw;
@@ -49,6 +49,7 @@
 .landmark_imgWrap:hover .landmark_map {
   display: block;
 }
+
 .landmark_map iframe {
   width: 100%;
   height: 100%;
@@ -61,18 +62,21 @@
 }
 
 .landmark_title {
+  color: var(--color-orange);
+  font-weight: var(--weight-bold);
+  text-decoration: underline;
+  text-transform: uppercase;
   text-align: left;
-  font-size: 3vw;
+  font-size: 2.5rem;
   padding: 1vw;
 }
 .landmark_content:nth-child(even) .landmark_title {
   text-align: right;
-  font-size: 3vw;
   padding: 20px;
 }
 .landmark_description {
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.6);
+  color: var(--color-white);
+  background-color: var(--color-light-black);
   text-align: center;
   font-size: 2vw;
   margin-top: -2vw;

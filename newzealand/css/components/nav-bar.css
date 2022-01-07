@@ -2,24 +2,26 @@
 #navbar {
   height: 10rem;
   z-index: 9999;
-  font-weight: 900;
   font-size: 3vw;
 }
 .nav_menu{
   font-size: 2rem;
+  font-weight: var(--weight-medium);
 }
 .navbarbw {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: var(--color-light-black);
 }
 .nav_items:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid var(--color-white);
 }
 
 .nav_items_bw:hover {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid var(--color-black);
 }
 
 @media screen and (max-width: 576px) {
   .nav_menu {
     font-size: 1.4rem;
   }
+
+  

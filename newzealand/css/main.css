@@ -12,18 +12,3 @@
 @import url(screens/history.css);
 @import url(screens/event.css);
 @import url(screens/contact.css);
-
-@font-face {
-  font-family: 'NEXONLv1Gothic';
-  font-weight: 300;
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Light.woff')
-    format('woff');
-  font-style: normal;
-}
-@font-face {
-  font-family: 'NEXONLv1Gothic';
-  font-weight: 400;
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff')
-    format('woff');
-  font-style: normal;
-}

@@ -12,7 +12,7 @@
 .carousel-inner:before {
   position: absolute;
   content: '';
-  background: rgba(0, 0, 0, 0.45);
+  background: var(--color-light-black);
   top: 0;
   left: 0;
   height: 100%;
@@ -41,37 +41,32 @@
   text-align: center;
 }
 
-.carouesel_title {
-  color: rgba(255, 255, 255, 0.5);
+.carousel_title {
+  color: var(--color-dark-white);
   font-size: 16rem;
   font-weight: 900;
 }
 .carousel_description p {
-  color: rgba(255, 255, 255);
+  color: var(--color-light-white);
   font-size: 1.5rem;
 }
 
 .carousel_description a:hover {
-  color: black;
+  color: var(--color-black);
 }
 
 @media screen and (max-width: 768px) {
-  .carouesel_title {
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 9rem;
+  .carousel_title {
+    color: var(--color-dark-white);
+    font-size: 10rem;
     font-weight: 900;
   }
   .carousel-item:first-child {
     background: url(/image/history.jpg) no-repeat;
   }
-  .carousel-item:nth-child(2) h1 {
-    font-size: 8rem;
-    font-weight: 900;
-  }
 }
 @media screen and (max-width: 576px) {
-  .carousel-item:nth-child(2) h1,
-  .carousel-item:first-child h1 {
+  .carousel_title {
     font-size: 6rem;
   }
 }

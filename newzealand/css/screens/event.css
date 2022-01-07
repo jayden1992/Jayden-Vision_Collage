@@ -9,16 +9,17 @@
 }
 .event_content {
   position: relative;
-  margin: 20vh auto;
+  margin: 15vh auto;
   width: 80%;
   height: 360px;
-  border: 1px dashed black;
+  border: 1px dashed var(--color-black);
 }
 
 .event_title_box {
   position: absolute;
-  color: wheat;
-  background-color: black;
+  color: var(--color-white);
+  font-weight: var(--weight-bold);
+  background-color: var(--color-dark-grey);
   top: -50px;
   left: -100px;
   height: 100px;
@@ -38,7 +39,7 @@
   transform: translateY(-50%);
 }
 .event_description a {
-  color: red;
+  color: var(--color-light-red);
   text-decoration: underline;
 }
 
